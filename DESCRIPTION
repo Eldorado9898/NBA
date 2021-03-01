@@ -1,0 +1,20 @@
+Package: NBA
+Title: NBA statistical function
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yingzhi",
+           family = "Zhang",
+           role = c("aut", "cre"),
+           email = "yz3988@columbia.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Calculating statistics based on NBA dataset.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+imports: dplyr,
+    purrr
